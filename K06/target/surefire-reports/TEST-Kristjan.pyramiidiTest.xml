@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kristjan.pyramiidiTest" time="0.249" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/rh/rh-maven33/root/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-642.11.1.el6.x86_64"/>
+    <property name="user.home" value="/home/krisveen"/>
+    <property name="user.timezone" value="Europe/Tallinn"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="krisveen"/>
+    <property name="java.class.path" value="/opt/rh/rh-maven33/root/usr/share/maven/boot/plexus-classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/rh/rh-maven33/root/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="rakendus" classname="Kristjan.pyramiidiTest" time="0.249">
+    <failure message="expected:&lt;[Pindala on 32 Pohjapindala on 22 Kuljepindala on 33 Ruumala on 203]&gt; but was:&lt;[{&quot;timestamp&quot;:1495983943416,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;No message available&quot;,&quot;path&quot;:&quot;/rakendus&quot;}]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Pindala on 32 Pohjapindala on 22 Kuljepindala on 33 Ruumala on 203]> but was:<[{"timestamp":1495983943416,"status":404,"error":"Not Found","message":"No message available","path":"/rakendus"}]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at Kristjan.pyramiidiTest.rakendus(pyramiidiTest.java:20)
+]]></failure>
+    <system-out><![CDATA[18:05:40.139 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class Kristjan.pyramiidiTest]
+18:05:40.163 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:05:40.181 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:05:40.204 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [Kristjan.pyramiidiTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:05:40.217 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [Kristjan.pyramiidiTest], using SpringBootContextLoader
+18:05:40.221 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [Kristjan.pyramiidiTest]: class path resource [Kristjan/pyramiidiTest-context.xml] does not exist
+18:05:40.221 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [Kristjan.pyramiidiTest]: class path resource [Kristjan/pyramiidiTestContext.groovy] does not exist
+18:05:40.222 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [Kristjan.pyramiidiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:05:40.222 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [Kristjan.pyramiidiTest]: pyramiidiTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:05:40.271 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [Kristjan.pyramiidiTest]
+18:05:40.280 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:05:40.281 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:05:40.281 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:05:40.293 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [Kristjan/] to resources [URL [file:/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/test-classes/Kristjan/], URL [file:/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan/]]
+18:05:40.293 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/test-classes/Kristjan]
+18:05:40.293 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/test-classes/Kristjan] for files matching pattern [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/test-classes/Kristjan/*.class]
+18:05:40.296 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan]
+18:05:40.296 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan] for files matching pattern [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan/*.class]
+18:05:40.304 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:Kristjan/*.class] to resources [file [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/test-classes/Kristjan/pyramiidiTest.class], file [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan/rakendus.class]]
+18:05:40.383 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06/target/classes/Kristjan/rakendus.class]
+18:05:40.384 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration Kristjan.rakendus for test class Kristjan.pyramiidiTest
+18:05:40.389 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [Kristjan.pyramiidiTest]: using defaults.
+18:05:40.394 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:05:40.412 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:05:40.412 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:05:40.413 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8b87145, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6483f5ae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b9afc07, org.springframework.test.context.support.DirtiesContextTestExecutionListener@382db087, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@73d4cc9e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@80169cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5427c60c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@15bfd87, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@543e710e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@57f23557]
+18:05:40.417 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [Kristjan.pyramiidiTest]
+18:05:40.417 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [Kristjan.pyramiidiTest]
+18:05:40.420 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class Kristjan.pyramiidiTest]
+18:05:40.420 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:05:40.420 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:05:40.420 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [Kristjan.pyramiidiTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:05:40.421 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [Kristjan.pyramiidiTest], using SpringBootContextLoader
+18:05:40.422 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [Kristjan.pyramiidiTest]: class path resource [Kristjan/pyramiidiTest-context.xml] does not exist
+18:05:40.422 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [Kristjan.pyramiidiTest]: class path resource [Kristjan/pyramiidiTestContext.groovy] does not exist
+18:05:40.423 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [Kristjan.pyramiidiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:05:40.424 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [Kristjan.pyramiidiTest]: pyramiidiTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:05:40.431 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [Kristjan.pyramiidiTest]
+18:05:40.431 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:05:40.432 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:05:40.432 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:05:40.432 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration Kristjan.rakendus for test class Kristjan.pyramiidiTest
+18:05:40.437 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [Kristjan.pyramiidiTest]: using defaults.
+18:05:40.443 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:05:40.447 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:05:40.448 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:05:40.448 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@32a068d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33cb5951, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@365c30cc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@701fc37a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4148db48, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@282003e1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7fad8c79, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71a794e5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@76329302, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5e25a92e]
+18:05:40.449 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [Kristjan.pyramiidiTest]
+18:05:40.449 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [Kristjan.pyramiidiTest]
+18:05:40.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [Kristjan.pyramiidiTest]
+18:05:40.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [Kristjan.pyramiidiTest]
+18:05:40.454 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1445d7f testClass = pyramiidiTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6a396c1e testClass = pyramiidiTest, locations = '{}', classes = '{class Kristjan.rakendus}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@55d56113, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@10bdf5e5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6f1fba17], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:05:40.455 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [Kristjan.pyramiidiTest]
+18:05:40.455 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [Kristjan.pyramiidiTest]
+18:05:40.457 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1445d7f testClass = pyramiidiTest, testInstance = Kristjan.pyramiidiTest@442675e1, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6a396c1e testClass = pyramiidiTest, locations = '{}', classes = '{class Kristjan.rakendus}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@55d56113, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@10bdf5e5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6f1fba17], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+18:05:40.527 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:05:40.527 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:05:40.527 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:05:40.528 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+18:05:40.529 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-05-28 18:05:40.921  INFO 13256 --- [           main] Kristjan.pyramiidiTest                   : Starting pyramiidiTest on greeny.cs.tlu.ee with PID 13256 (started by krisveen in /home/krisveen/public_html/Java/Kodused/t06veebirakendus2/K06)
+2017-05-28 18:05:40.922  INFO 13256 --- [           main] Kristjan.pyramiidiTest                   : No active profile set, falling back to default profiles: default
+2017-05-28 18:05:40.946  INFO 13256 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5609159b: startup date [Sun May 28 18:05:40 EEST 2017]; root of context hierarchy
+2017-05-28 18:05:42.383  INFO 13256 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+2017-05-28 18:05:42.398  INFO 13256 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-28 18:05:42.399  INFO 13256 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-05-28 18:05:42.496  INFO 13256 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-28 18:05:42.497  INFO 13256 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1554 ms
+2017-05-28 18:05:42.624  INFO 13256 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-28 18:05:42.628  INFO 13256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-28 18:05:42.629  INFO 13256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-28 18:05:42.629  INFO 13256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-28 18:05:42.629  INFO 13256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-28 18:05:42.941  INFO 13256 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5609159b: startup date [Sun May 28 18:05:40 EEST 2017]; root of context hierarchy
+2017-05-28 18:05:43.007  INFO 13256 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/pyramiid]}" onto public java.lang.String Kristjan.rakendus.pyramiid(double,double,double)
+2017-05-28 18:05:43.010  INFO 13256 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-28 18:05:43.010  INFO 13256 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-28 18:05:43.039  INFO 13256 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 18:05:43.040  INFO 13256 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 18:05:43.076  INFO 13256 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 18:05:43.224  INFO 13256 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 44105 (http)
+2017-05-28 18:05:43.228  INFO 13256 --- [           main] Kristjan.pyramiidiTest                   : Started pyramiidiTest in 2.697 seconds (JVM running for 3.45)
+2017-05-28 18:05:43.361  INFO 13256 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-28 18:05:43.361  INFO 13256 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-28 18:05:43.375  INFO 13256 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+]]></system-out>
+  </testcase>
+</testsuite>
